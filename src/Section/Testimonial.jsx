@@ -20,11 +20,19 @@ function Testimonial() {
       stars: 3,
       company: "Microsoft",
     },
+    {
+        id: 3,
+        mot: "This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+        img: clientImg,
+        name: "John Doe",
+        stars: 3,
+        company: "Microsoft",
+      },
   ];
 
   return (
     <div className="w-full font-epilogue">
-      <div className="max-w-[1280px] mx-auto px-5">
+      <div className="max-w-[1280px] mx-auto px-5 pt-6">
         {/* Section Title */}
         <p className="text-center font-semibold text-[32px] leading-[42px] mb-[40px]">
           Testimonial
@@ -47,7 +55,7 @@ function Testimonial() {
                   className="w-12 h-12 rounded-full"
                 />
                 <div className="text-[#2d2d2d]">
-                  {/* Star Ratings */}
+                
                   <div className="mb-[11px] flex gap-1 text-[20px]">
                     {[...Array(item.stars)].map((_, index) => (
                       <FaStar key={index} className="text-[#2d2d2d]" />

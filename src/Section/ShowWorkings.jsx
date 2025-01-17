@@ -52,7 +52,7 @@ function ShowWorkings() {
         <p className="text-center font-semibold text-[32px] leading-[42px] mb-[40px]">
           Latest work
         </p>
-        <div className="grid px-5 lg:grid-cols-3 md:grid-cols-2">
+        <div className="grid gap-6 px-5 lg:grid-cols-3 md:grid-cols-2">
           {data.map((item, index) => {
             return (
               <div key={index} className="">
