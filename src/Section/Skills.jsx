@@ -26,27 +26,32 @@ function Skills() {
       ];
     
   return (
-    <div className="w-full mx-auto font-epilogue">
-        <div className="max-w-[1280px] mx-auto py-24 px-24">
-        <div className="lg:grid-cols-3 grid gap-24">
-            {data.map((item, index) => {
-                return (
-                    <div key={index} className=''>
-                        <img src={item.img} alt={item.title} className="" />
-                        <div className=''>
-                            <p className="flex-wrap w-[93%] text-[27] font-semibold leading-[42px] text-[#2D2D2D]">
-                                {item.title}
-                            </p>
-                            <p className="flex-wrap w-[93%] text-[17] font-normal leading-[27px] text-[#2D2D2D]">
-                                {item.desc}
-                            </p>
-                        </div>
-                    </div>
-                )
-            })}
-        </div>
-        </div>
+<div className="w-full mx-auto font-epilogue">
+  <div className="max-w-[1280px] mx-auto py-24 px-24">
+    <div className="lg:grid lg:grid-cols-3 gap-6 text-center">
+      {data.map((item, index) => {
+        return (
+          <div key={index} className="flex flex-col items-center">
+            <img
+              src={item.img}
+              alt={item.title}
+              className="w-[124px] h-[124px] mb-4"
+            />
+            <div className="text-center">
+              <p className="text-[27px] font-semibold leading-[42px] text-[#2D2D2D] mb-[12px] mt-[42px]">
+                {item.title}
+              </p>
+              <p className="text-[17px] font-normal leading-[27px] text-[#2D2D2D]">
+                {item.desc}
+              </p>
+            </div>
+          </div>
+        );
+      })}
     </div>
+  </div>
+</div>
+
   )
 }
 
