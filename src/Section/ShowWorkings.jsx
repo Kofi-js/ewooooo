@@ -2,7 +2,9 @@ import React from "react";
 import img1 from "../Assets/Image/Image (1).png";
 import img2 from "../Assets/Image/Image (2).png";
 import img3 from "../Assets/Image/Image (3).png";
-import img4 from "../Assets/Image/Image (1).png";
+import img4 from "../Assets/Image/Image (4).png";
+import img5 from "../Assets/Image/Image (5).png";
+import img6 from "../Assets/Image/Image (6).png";
 
 const data = [
   {
@@ -26,6 +28,18 @@ const data = [
   {
     id: 4,
     img: img4,
+    title: "Design",
+    desc: "This is a template Figma",
+  },
+  {
+    id: 5,
+    img: img5,
+    title: "Design",
+    desc: "This is a template Figma",
+  },
+  {
+    id: 6,
+    img: img6,
     title: "Design",
     desc: "This is a template Figma",
   },
