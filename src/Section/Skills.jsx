@@ -35,7 +35,7 @@ function Skills() {
             <img
               src={item.img}
               alt={item.title}
-              className="w-[124px] h-[124px] mb-4"
+              className="w-[124px] h-[124px]"
             />
             <div className="text-center">
               <p className="text-[27px] font-semibold leading-[42px] text-[#2D2D2D] mb-[12px] mt-[42px]">
