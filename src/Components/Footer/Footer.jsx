@@ -4,11 +4,11 @@ function Footer() {
   return (
     <div className="w-full">
       <div className="max-w-[1280px] mx-auto px-5">
-        <p>Lets work together</p>
+        <p className="font-semibold text-[32px] leading-[42px] text-[#2D2D2D] mt-[42px]">Lets work together</p>
 
         <div className="flex justify-between">
           <div>
-            <p className="lg:w-[50%]">
+            <p className="lg:w-[50%] font-normal text-[17px] leading-[27px] text-[#2D2D2D] mt-[24px] mb-[42px]">
               This is a template Figma file, turned into code using Anima. Learn
               more at AnimaApp.com This is a template Figma file, turned into
               code using Anima. Learn more at AnimaApp.com
@@ -30,7 +30,7 @@ function Footer() {
               />
               <button
                 type="submit"
-                className="w-full px-4 py-2 text-white transition-colors rounded bg-zinc-800 hover:bg-zinc-900"
+                className=" px-4 py-2 text-white transition-colors rounded bg-zinc-800 hover:bg-zinc-900 w-[165px] h-[50px]"
               >
                 Submit
               </button>
