@@ -28,6 +28,30 @@ function Testimonial() {
         stars: 3,
         company: "Microsoft",
       },
+      {
+        id: 4,
+        mot: "This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+        img: clientImg,
+        name: "John Doe",
+        stars: 3,
+        company: "Microsoft",
+      },
+      {
+        id: 5,
+        mot: "This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+        img: clientImg,
+        name: "John Doe",
+        stars: 3,
+        company: "Microsoft",
+      },
+      {
+        id: 6,
+        mot: "This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+        img: clientImg,
+        name: "John Doe",
+        stars: 3,
+        company: "Microsoft",
+      },
   ];
 
   return (
