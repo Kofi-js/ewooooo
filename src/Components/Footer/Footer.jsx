@@ -1,19 +1,31 @@
 import React from "react";
+import { FaFacebookSquare,
+  FaDiscord,
+  FaDribbble,
+  FaInstagram,
+  FaBehance } from 'react-icons/fa'
 
 function Footer() {
   return (
     <div className="w-full">
       <div className="max-w-[1280px] mx-auto px-5">
-        <p className="font-semibold text-[32px] leading-[42px] text-[#2D2D2D] mt-[42px]">Lets work together</p>
+      <p className="w-full font-semibold text-[32px] leading-[42px] text-[#2D2D2D] mt-[42px]">Lets work together</p>
 
-        <div className="flex justify-between">
+
+        <div className="py-16 grid lg:grid-cols-2 gap-8 justify-between">
           <div>
-            <p className="lg:w-[50%] font-normal text-[17px] leading-[27px] text-[#2D2D2D] mt-[24px] mb-[42px]">
+            <p className="lg:w-full font-normal text-[17px] leading-[27px] text-[#2D2D2D] mt-[24px] mb-[42px]">
               This is a template Figma file, turned into code using Anima. Learn
               more at AnimaApp.com This is a template Figma file, turned into
               code using Anima. Learn more at AnimaApp.com
             </p>
-            <div>icons</div>
+            <div className='flex justify-between md:w-[75%] my-6'>
+            <FaDiscord size={30}/>
+            <FaFacebookSquare size={30}/>
+            <FaDribbble size={30}/>
+            <FaInstagram size={30}/>
+            <FaBehance size={30}/>
+        </div>
           </div>
 
           <div className="space-y-4">
